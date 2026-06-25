@@ -37,28 +37,6 @@ Video Editing
 
 ---
 
-## User Flow
-
-Landing
-
-↓
-
-Start
-
-↓
-
-Quiz
-
-↓
-
-Recommendation
-
-↓
-
-Try Again
-
----
-
 
 ## Future Improvements
 
