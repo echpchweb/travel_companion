@@ -8,6 +8,7 @@ Built as a personal portfolio project combining frontend development, content cr
 
 ---
 
+
 ## Features
 
 ✨ Cinematic landing page
