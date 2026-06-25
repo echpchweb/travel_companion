@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Companion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LANDING SCREEN -->
+<section id="landing" class="screen active">
+    <video autoplay muted loop class="bg-video">
+        <source src="assets/video/hero.mp4" type="video/mp4">
+    </video>
+    <div class="overlay">
+        <h1>Find a place that feels like you</h1>
+        <button id="startBtn">START</button>
+    </div>
+</section>
+
+<!-- QUIZ SCREEN -->
+<section id="quiz" class="screen">
+    <video autoplay muted loop class="bg-video">
+        <source src="assets/video/quiz-bg.mp4" type="video/mp4">
+    </video>
+    <div class="quiz-overlay">
+        <div class="progress-bar">
+            <div id="progressFill" class="progress-fill"></div>
+        </div>
+        <div id="quizContainer"></div>
+    </div>
+</section>
+
+<!-- RESULT SCREEN -->
+<section id="result" class="screen">
+    <div id="resultContainer"></div>
+</section>
+
+<script src="countries.js"></script>
+<script src="script.js"></script>
+
+<footer class="footer">
+    <p>
+        Designed & developed by Vera Antimonova
+    </p>
+
+    <span>
+        HTML • CSS • JavaScript • Video Editing
+    </span>
+</footer>
+</body>
+</html>
