@@ -37,7 +37,6 @@ Video Editing
 
 ---
 
-
 ## Future Improvements
 
 - Google Sheets backend
