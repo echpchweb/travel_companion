@@ -34,7 +34,19 @@ document.getElementById('startBtn').addEventListener('click', () => {
     userAnswers = {};
     showScreen('quiz');
     renderQuiz();
+    loadQuizVideo();
 });
+
+function loadQuizVideo() {
+    const video = document.getElementById('quizVideo');
+    const source = video.querySelector('source');
+
+    if (!source.src) {
+        source.src = source.dataset.src;
+        video.load();
+        video.play();
+    }
+}
 
 function renderQuiz() {
     const question = quizQuestions[currentQuestionIndex];
@@ -80,7 +92,8 @@ function showResult() {
     
     <img src="${result.country.image}" 
          alt="${result.country.name}" 
-         class="result-image">
+         class="result-image"
+         loading="lazy">
 
     <h2>${result.country.name}</h2>
 

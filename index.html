@@ -10,7 +10,7 @@
 
 <!-- LANDING SCREEN -->
 <section id="landing" class="screen active">
-    <video autoplay muted loop class="bg-video">
+    <video autoplay muted loop preload="auto" class="bg-video">
         <source src="assets/video/hero.mp4" type="video/mp4">
     </video>
     <div class="overlay">
@@ -21,8 +21,8 @@
 
 <!-- QUIZ SCREEN -->
 <section id="quiz" class="screen">
-    <video autoplay muted loop class="bg-video">
-        <source src="assets/video/hero.mp4" type="video/mp4">
+    <video class="bg-video" muted loop id="quizVideo">
+        <source data-src="assets/video/hero.mp4" type="video/mp4">
     </video>
     <div class="quiz-overlay">
         <div class="progress-bar">
